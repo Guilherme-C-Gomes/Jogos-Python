@@ -5,3 +5,5 @@ print ("********************************")
 numero_secreto = 42
 
 input("Digite o seu numero: ")
+
+print("Você digitou", chute)
