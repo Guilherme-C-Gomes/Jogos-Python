@@ -8,7 +8,7 @@ rodada = 1
 
 
 while(rodada <= total_de_tentativas ):
-    print("tentativa", rodada, "de", total_de_tentativas)
+    print("Tentativa {} de {}".format(rodada, total_de_tentativas))
     chute_str= input("Digite o seu numero: ")
     print("Você digitou", chute_str)
     chute = int(chute_str)
@@ -25,5 +25,3 @@ while(rodada <= total_de_tentativas ):
         elif (menor):
             print("Você errou! O seu chute foi menor que o numero secreto")
     rodada = rodada + 1
-
-    print ("Fim de jogo")
