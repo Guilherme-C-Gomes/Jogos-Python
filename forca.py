@@ -26,6 +26,7 @@ def jogar():
                 index += 1 
         else:
             erros += 1
+            print("Você errou {} de {} ".format(erros,6))
 
         enforcou = erros == 6
         #enquanto _ não tiver em letras acertadas a condição de acertou continua false
