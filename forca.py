@@ -4,7 +4,8 @@ def jogar():
     print ("********************************")
 
     palavra_secreta = "banana".upper()
-    letras_acertadas = ["_","_","_","_","_","_"]
+                        #usa _ para cada letra na palavra secreta (list comprehensions)
+    letras_acertadas = ["_" for letra in palavra_secreta]
 
     enforcou = False
     acertou = False
@@ -32,7 +33,7 @@ def jogar():
         #enquanto _ não tiver em letras acertadas a condição de acertou continua false
         acertou = "_" not in letras_acertadas
 
-        print(letras_acertadas)
+        print(letras_acertadas)\
 
     if (acertou):
         print("Você ganhou!") 
