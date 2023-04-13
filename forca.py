@@ -25,7 +25,7 @@ def jogar():
             erros += 1
             desenha_forca(erros)
 
-        enforcou = erros == 6
+        enforcou = erros == 7
         #enquanto _ não tiver em letras acertadas a condição de acertou continua false
         acertou = "_" not in letras_acertadas or palavra_secreta == chute
 
