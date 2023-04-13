@@ -1,4 +1,5 @@
 banana
 melancia
 morango
-maça
+manga
+jaca
